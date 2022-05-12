@@ -2,7 +2,7 @@ import express from 'express';
 import nodemailer from 'nodemailer';
 import { NodemailerMailAdapter } from './adapters/nodemailer/nodemailer-mail-adapter';
 import { PrimasFeedbacksRepository } from './repositories/prisma/prisma-feedbacks-repository';
-import { SubmitFeedbackUseCase } from './use-case/submit-feedbacks-use-case';
+import { SubmitFeedbackUseCase } from './useCase/submit-feedbacks-use-case';
 
 export const router = express.Router();
 
